@@ -1,0 +1,12 @@
+#########################################################################
+# File Name: /usr/bin/git_update.sh
+# Created Time: 2019年12月18日 星期三 00时27分17秒
+#########################################################################
+#!/bin/bash
+
+git add .
+git commit -m "$*"
+git pull origin master
+git pull origin1 master
+git push origin master
+git push origin1 master
